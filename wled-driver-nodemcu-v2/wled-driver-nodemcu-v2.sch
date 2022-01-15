@@ -1,0 +1,441 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NodeMCU:NodeMCU_Amica_R2 U1
+U 1 1 6197C532
+P 4300 3900
+F 0 "U1" H 4300 4825 50  0000 C CNN
+F 1 "NodeMCU_Amica_R2" H 4300 4734 50  0000 C CNN
+F 2 "NodeMCU Git:NodeMCU_Amica_R2" H 4550 3900 50  0001 C CNN
+F 3 "" H 4550 3900 50  0000 C CNN
+	1    4300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3300 6150 2450
+Wire Wire Line
+	4750 3400 6150 2550
+Wire Wire Line
+	4750 3500 6150 2650
+Wire Wire Line
+	4750 3600 6150 2750
+Wire Wire Line
+	7850 2450 7550 2450
+Wire Wire Line
+	7850 950  8350 950 
+Wire Wire Line
+	7550 2950 7550 3000
+$Comp
+L Connector:Screw_Terminal_01x03 D2-GPIO4
+U 1 1 619E047A
+P 8550 1350
+F 0 "D2-GPIO4" H 8630 1392 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 8630 1301 50  0000 L CNN
+F 2 "TerminalBlock_Philmore:TerminalBlock_Philmore_TB133_1x03_P5.00mm_Horizontal" H 8550 1350 50  0001 C CNN
+F 3 "~" H 8550 1350 50  0001 C CNN
+	1    8550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 D4-GPIO2
+U 1 1 619E0F32
+P 8550 3100
+F 0 "D4-GPIO2" H 8630 3142 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 8630 3051 50  0000 L CNN
+F 2 "TerminalBlock_Philmore:TerminalBlock_Philmore_TB133_1x03_P5.00mm_Horizontal" H 8550 3100 50  0001 C CNN
+F 3 "~" H 8550 3100 50  0001 C CNN
+	1    8550 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2550 8050 2550
+Wire Wire Line
+	8050 2550 8050 1350
+Wire Wire Line
+	8050 1350 8350 1350
+Wire Wire Line
+	8350 3100 7800 3100
+Wire Wire Line
+	7800 2750 7550 2750
+Wire Wire Line
+	7800 2750 7800 3100
+$Comp
+L BOB-12009:BOB-12009 LevelShifter-1
+U 1 1 6197E041
+P 6850 2550
+F 0 "LevelShifter-1" H 6850 3117 50  0000 C CNN
+F 1 "BOB-12009" H 6850 3026 50  0000 C CNN
+F 2 "kicad-lib:CONV_BOB-12009" H 6850 2550 50  0001 L BNN
+F 3 "" H 6850 2550 50  0001 L BNN
+F 4 "N/A" H 6850 2550 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 5 "SparkFun Electronics" H 6850 2550 50  0001 L BNN "MANUFACTURER"
+F 6 "01" H 6850 2550 50  0001 L BNN "PARTREV"
+F 7 "Manufacturer Recommendations" H 6850 2550 50  0001 L BNN "STANDARD"
+	1    6850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61A5622D
+P 6400 850
+F 0 "H4" H 6500 896 50  0000 L CNN
+F 1 "MountingHole" H 6500 805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6400 850 50  0001 C CNN
+F 3 "~" H 6400 850 50  0001 C CNN
+	1    6400 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61A5701A
+P 6100 850
+F 0 "H3" H 6200 896 50  0000 L CNN
+F 1 "MountingHole" H 6200 805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6100 850 50  0001 C CNN
+F 3 "~" H 6100 850 50  0001 C CNN
+	1    6100 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61A57505
+P 5800 850
+F 0 "H2" H 5900 896 50  0000 L CNN
+F 1 "MountingHole" H 5900 805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5800 850 50  0001 C CNN
+F 3 "~" H 5800 850 50  0001 C CNN
+	1    5800 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61A578D8
+P 5450 850
+F 0 "H1" H 5550 896 50  0000 L CNN
+F 1 "MountingHole" H 5550 805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5450 850 50  0001 C CNN
+F 3 "~" H 5450 850 50  0001 C CNN
+	1    5450 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 61A8268A
+P 6700 1400
+F 0 "C1" V 6448 1400 50  0000 C CNN
+F 1 "C" V 6539 1400 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 6738 1250 50  0001 C CNN
+F 3 "~" H 6700 1400 50  0001 C CNN
+	1    6700 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 619BD9CF
+P 7550 3000
+F 0 "#PWR02" H 7550 2750 50  0001 C CNN
+F 1 "GND" H 7555 2827 50  0000 C CNN
+F 2 "" H 7550 3000 50  0001 C CNN
+F 3 "" H 7550 3000 50  0001 C CNN
+	1    7550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 61ADC1C5
+P 4750 4500
+F 0 "#PWR09" H 4750 4250 50  0001 C CNN
+F 1 "GND" V 4755 4372 50  0000 R CNN
+F 2 "" H 4750 4500 50  0001 C CNN
+F 3 "" H 4750 4500 50  0001 C CNN
+	1    4750 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 61AE3AA9
+P 3850 4600
+F 0 "#PWR03" H 3850 4450 50  0001 C CNN
+F 1 "+5V" H 3865 4773 50  0000 C CNN
+F 2 "" H 3850 4600 50  0001 C CNN
+F 3 "" H 3850 4600 50  0001 C CNN
+	1    3850 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 61AE3604
+P 3850 4500
+F 0 "#PWR01" H 3850 4250 50  0001 C CNN
+F 1 "GND" V 3855 4372 50  0000 R CNN
+F 2 "" H 3850 4500 50  0001 C CNN
+F 3 "" H 3850 4500 50  0001 C CNN
+	1    3850 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 61AFEC43
+P 6400 1550
+F 0 "#PWR011" H 6400 1400 50  0001 C CNN
+F 1 "+5V" H 6415 1723 50  0000 C CNN
+F 2 "" H 6400 1550 50  0001 C CNN
+F 3 "" H 6400 1550 50  0001 C CNN
+	1    6400 1550
+	-1   0    0    1   
+$EndComp
+Connection ~ 6400 1550
+Wire Wire Line
+	6400 1550 6850 1550
+Wire Wire Line
+	6850 1400 6850 1550
+$Comp
+L power:GND #PWR010
+U 1 1 61B10813
+P 6400 1400
+F 0 "#PWR010" H 6400 1150 50  0001 C CNN
+F 1 "GND" H 6405 1227 50  0000 C CNN
+F 2 "" H 6400 1400 50  0001 C CNN
+F 3 "" H 6400 1400 50  0001 C CNN
+	1    6400 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 D1-GPIO5
+U 1 1 619D3C25
+P 8550 950
+F 0 "D1-GPIO5" H 8630 992 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 8630 901 50  0000 L CNN
+F 2 "TerminalBlock_Philmore:TerminalBlock_Philmore_TB133_1x03_P5.00mm_Horizontal" H 8550 950 50  0001 C CNN
+F 3 "~" H 8550 950 50  0001 C CNN
+	1    8550 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR013
+U 1 1 61B1AB77
+P 8350 850
+F 0 "#PWR013" H 8350 700 50  0001 C CNN
+F 1 "+5V" H 8365 1023 50  0000 C CNN
+F 2 "" H 8350 850 50  0001 C CNN
+F 3 "" H 8350 850 50  0001 C CNN
+	1    8350 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 61B1C93C
+P 8350 1050
+F 0 "#PWR014" H 8350 800 50  0001 C CNN
+F 1 "GND" H 8355 877 50  0000 C CNN
+F 2 "" H 8350 1050 50  0001 C CNN
+F 3 "" H 8350 1050 50  0001 C CNN
+	1    8350 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 D3-GPIO0
+U 1 1 619E0A2B
+P 8550 2650
+F 0 "D3-GPIO0" H 8630 2692 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 8630 2601 50  0000 L CNN
+F 2 "TerminalBlock_Philmore:TerminalBlock_Philmore_TB133_1x03_P5.00mm_Horizontal" H 8550 2650 50  0001 C CNN
+F 3 "~" H 8550 2650 50  0001 C CNN
+	1    8550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR05
+U 1 1 61B48C0E
+P 3850 4200
+F 0 "#PWR05" H 3850 4050 50  0001 C CNN
+F 1 "+3.3V" V 3865 4328 50  0000 L CNN
+F 2 "" H 3850 4200 50  0001 C CNN
+F 3 "" H 3850 4200 50  0001 C CNN
+	1    3850 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR08
+U 1 1 61B566CE
+P 6150 2250
+F 0 "#PWR08" H 6150 2100 50  0001 C CNN
+F 1 "+3.3V" H 6165 2423 50  0000 C CNN
+F 2 "" H 6150 2250 50  0001 C CNN
+F 3 "" H 6150 2250 50  0001 C CNN
+	1    6150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 61B6C0F3
+P 4750 3800
+F 0 "#PWR06" H 4750 3550 50  0001 C CNN
+F 1 "GND" V 4755 3672 50  0000 R CNN
+F 2 "" H 4750 3800 50  0001 C CNN
+F 3 "" H 4750 3800 50  0001 C CNN
+	1    4750 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 61B6FBBB
+P 3850 4100
+F 0 "#PWR04" H 3850 3850 50  0001 C CNN
+F 1 "GND" V 3855 3972 50  0000 R CNN
+F 2 "" H 3850 4100 50  0001 C CNN
+F 3 "" H 3850 4100 50  0001 C CNN
+	1    3850 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR012
+U 1 1 61B79E90
+P 7550 2250
+F 0 "#PWR012" H 7550 2100 50  0001 C CNN
+F 1 "+5V" H 7565 2423 50  0000 C CNN
+F 2 "" H 7550 2250 50  0001 C CNN
+F 3 "" H 7550 2250 50  0001 C CNN
+	1    7550 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR015
+U 1 1 61B7CA97
+P 8350 1250
+F 0 "#PWR015" H 8350 1100 50  0001 C CNN
+F 1 "+5V" H 8365 1423 50  0000 C CNN
+F 2 "" H 8350 1250 50  0001 C CNN
+F 3 "" H 8350 1250 50  0001 C CNN
+	1    8350 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR017
+U 1 1 61B80898
+P 8350 2550
+F 0 "#PWR017" H 8350 2400 50  0001 C CNN
+F 1 "+5V" H 8365 2723 50  0000 C CNN
+F 2 "" H 8350 2550 50  0001 C CNN
+F 3 "" H 8350 2550 50  0001 C CNN
+	1    8350 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR019
+U 1 1 61B80D80
+P 8350 3000
+F 0 "#PWR019" H 8350 2850 50  0001 C CNN
+F 1 "+5V" H 8365 3173 50  0000 C CNN
+F 2 "" H 8350 3000 50  0001 C CNN
+F 3 "" H 8350 3000 50  0001 C CNN
+	1    8350 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 2650 8350 2650
+Wire Wire Line
+	7850 950  7850 2450
+$Comp
+L power:GND #PWR016
+U 1 1 61BC8866
+P 8350 1450
+F 0 "#PWR016" H 8350 1200 50  0001 C CNN
+F 1 "GND" H 8355 1277 50  0000 C CNN
+F 2 "" H 8350 1450 50  0001 C CNN
+F 3 "" H 8350 1450 50  0001 C CNN
+	1    8350 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 61BD53D9
+P 8350 2750
+F 0 "#PWR018" H 8350 2500 50  0001 C CNN
+F 1 "GND" H 8355 2577 50  0000 C CNN
+F 2 "" H 8350 2750 50  0001 C CNN
+F 3 "" H 8350 2750 50  0001 C CNN
+	1    8350 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 61BD5BA4
+P 8350 3200
+F 0 "#PWR020" H 8350 2950 50  0001 C CNN
+F 1 "GND" H 8355 3027 50  0000 C CNN
+F 2 "" H 8350 3200 50  0001 C CNN
+F 3 "" H 8350 3200 50  0001 C CNN
+	1    8350 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 1550 6400 1550
+Wire Wire Line
+	6550 1400 6400 1400
+Connection ~ 6400 1400
+$Comp
+L Connector:Screw_Terminal_01x02 5VIn1
+U 1 1 619C57C7
+P 5800 1550
+F 0 "5VIn1" H 5718 1225 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 5718 1316 50  0000 C CNN
+F 2 "TerminalBlock_Philmore:TerminalBlock_Philmore_TB132_1x02_P5.00mm_Horizontal" H 5800 1550 50  0001 C CNN
+F 3 "~" H 5800 1550 50  0001 C CNN
+	1    5800 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 1450 6400 1400
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 61C3F5AF
+P 4750 3700
+F 0 "#PWR0101" H 4750 3550 50  0001 C CNN
+F 1 "+3.3V" V 4765 3828 50  0000 L CNN
+F 2 "" H 4750 3700 50  0001 C CNN
+F 3 "" H 4750 3700 50  0001 C CNN
+	1    4750 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR07
+U 1 1 61B56D63
+P 4750 4600
+F 0 "#PWR07" H 4750 4450 50  0001 C CNN
+F 1 "+3.3V" H 4765 4773 50  0000 C CNN
+F 2 "" H 4750 4600 50  0001 C CNN
+F 3 "" H 4750 4600 50  0001 C CNN
+	1    4750 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 4200 5200 4200
+Wire Wire Line
+	5200 4200 5200 5500
+Wire Wire Line
+	5300 5400 5300 4100
+Wire Wire Line
+	5300 4100 4750 4100
+Wire Wire Line
+	4750 4000 5400 4000
+Wire Wire Line
+	5400 4000 5400 5300
+Wire Wire Line
+	5500 5200 5500 3900
+Wire Wire Line
+	5500 3900 4750 3900
+$EndSCHEMATC
